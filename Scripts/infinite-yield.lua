@@ -1,4 +1,6 @@
 --Thank You For Using Paradise
+--Use CTRL+A then CTRL+C to copy script
+
 if IY_LOADED and not _G.IY_DEBUG == true then
     -- error("Infinite Yield is already running!", 0)
     return
