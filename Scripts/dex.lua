@@ -1,4 +1,5 @@
 --Thank You For Using Paradise
+--Use CTRL+A then CTRL+C to copy script
 
 local nodes = {}
 local selection
