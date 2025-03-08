@@ -1,4 +1,5 @@
 --Thank You For Using Paradise
+--Use CTRL+A then CTRL+C to copy script
 
 local game = game
 local assert, loadstring, select, next, type, typeof, pcall, xpcall, setmetatable, getmetatable, tick, warn = assert, loadstring, select, next, type, typeof, pcall, xpcall, setmetatable, getmetatable, tick, warn
