@@ -3,46 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy Scripts</title>
+    <title>Scripts | Your Product</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #121212;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
         }
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
         p {
             font-size: 1.2rem;
-            margin-bottom: 30px;
+            color: #b3b3b3;
         }
-        .back-button {
-            padding: 15px 30px;
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .button {
+            padding: 10px 20px;
             border: none;
-            border-radius: 50px;
-            font-size: 1.2rem;
+            border-radius: 20px;
+            font-size: 1rem;
             cursor: pointer;
             transition: 0.3s;
             text-decoration: none;
             color: white;
-            background-color: #007BFF;
+            font-weight: bold;
+            background-color: black;
         }
-        .back-button:hover {
-            opacity: 0.8;
+        .home {
+            background: linear-gradient(45deg, #007BFF, #00d4ff);
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+        }
+        .button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        .scripts-container {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .scripts-container h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .script-box {
+            background-color: #262626;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            color: #e6e6e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .script-box a {
+            margin-left: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Buy Scripts</h1>
-    <p>Here you can purchase premium scripts for your executor.</p>
-    <a href="index.html" class="back-button">Back to Home</a>
+    <div class="container">
+        <h1>Scripts</h1>
+        <p>Browse our collection of powerful scripts.</p>
+        <div class="button-container">
+            <a href="index.html" class="button home">🏠 Home</a>
+        </div>
+        <div class="scripts-container">
+            <h2>Paid Scripts</h2>
+            <div class="script-box">🔹 Paradise Hub V2 for Greenville - Our Best Script</div>
+        </div>
+        <div class="scripts-container">
+            <h2>Free Scripts</h2>
+            <div class="script-box">🔹 Infinite Yield - Admin CMDs <a href="https://raw.githubusercontent.com/Jake327485/scripts/refs/heads/main/infinite-yield.lua" class="button">Get Script</a></div>
+        </div>
+    </div>
 </body>
 </html>
