@@ -11,16 +11,19 @@
             background-color: #0d0d0d;
             color: white;
             font-family: Arial, sans-serif;
-            text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
+            text-align: center;
         }
         .container {
             max-width: 800px;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         h1 {
             font-size: 3rem;
@@ -35,6 +38,7 @@
             display: flex;
             gap: 20px;
             margin-top: 30px;
+            justify-content: center;
         }
         .button {
             padding: 15px 40px;
@@ -63,8 +67,8 @@
             border-radius: 10px;
             width: 100%;
             max-width: 600px;
-            text-align: left;
             margin-top: 20px;
+            text-align: center;
         }
         .features-container h2, .updates-container h2 {
             font-size: 1.8rem;
@@ -86,7 +90,7 @@
         <p>The best executor and scripts for your needs.</p>
         <div class="button-container">
             <a href="scripts.html" class="button buy">Buy Scripts</a>
-            <button class="button executor" onclick=" window.open('http://google.com','_blank')"> Get Executor</button>
+            <button class="button executor" onclick="window.open('http://google.com','_blank')"> Get Executor</button>
         </div>
         <div class="features-container">
             <h2>Features</h2>
