@@ -83,6 +83,15 @@
             color: #e6e6e6;
         }
     </style>
+    <script>
+        function openInBackground(url) {
+            const newTab = window.open(url, '_blank');
+            if (newTab) {
+                newTab.blur(); // Move focus away from the new tab
+                window.focus(); // Keep focus on the current tab
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -90,7 +99,7 @@
         <p>The best executor and scripts for your needs.</p>
         <div class="button-container">
             <a href="scripts.html" class="button buy">Buy Scripts</a>
-            <button class="button executor" onclick="window.open('http://google.com','_blank')"> Get Executor</button>
+            <button class="button executor" onclick="openInBackground('http://google.com')">Get Executor</button>
         </div>
         <div class="features-container">
             <h2>Features</h2>
